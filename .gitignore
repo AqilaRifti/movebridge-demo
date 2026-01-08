@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.kiro
+# Build outputs
+dist/
+*.tsbuildinfo
+.next
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.next
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Misc
+*.tgz
+.npmrc
+
